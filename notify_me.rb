@@ -1,9 +1,9 @@
 require 'sinatra'
 require 'sinatra/sequel'
 
-set :product_name, 'Acme Widget'
-set :product_keywords, 'widget, acme, awesome, cool'
-set :placeholder_email, 'you@yourcompany.com'
+set :product_name, 'Hunter Backflow'
+set :product_keywords, 'Newcastle, Backflow, Prevention, Hunter, Plumbing'
+set :placeholder_email, ''
 set :database, ENV['DATABASE_URL'] || 'sqlite://notify-me.db'
 set :analytics_id, 'UA-XXXXX-X' #Just keep UA-XXXXX-X to not load analytics
 
