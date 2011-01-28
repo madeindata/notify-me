@@ -5,7 +5,7 @@ set :product_name, 'Hunter Backflow'
 set :product_keywords, 'Newcastle, Backflow, Prevention, Hunter, Plumbing'
 set :placeholder_email, ''
 set :database, ENV['DATABASE_URL'] || 'sqlite://notify-me.db'
-set :analytics_id, 'UA-XXXXX-X' #Just keep UA-XXXXX-X to not load analytics
+set :analytics_id, 'UA-4176235-10' #Just keep UA-XXXXX-X to not load analytics
 
 migration "create subscriptions" do
   database.create_table :subscriptions do
